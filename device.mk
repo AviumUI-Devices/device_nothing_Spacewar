@@ -16,7 +16,7 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 $(call inherit-product, vendor/nothing/Spacewar/Spacewar-vendor.mk)
 
 # NT Camera
-$(call inherit-product, vendor/nothing/camera/nothing-camera.mk)
+$(call inherit-product, vendor/nothing/camera-Spacewar/nothing-camera.mk)
 
 PRODUCT_COPY_FILES += \
     vendor/nothing/camera/proprietary/system/etc/permissions/NTCamera-permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/NTCamera-permissions.xml \
